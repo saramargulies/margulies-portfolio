@@ -1,5 +1,6 @@
 import React from "react";
 import NPDBImg from "../assets/projects/NPDBImg.png";
+import LinkyImg from "../assets/projects/linky.png"
 
 const Work = () => {
   return (
@@ -25,7 +26,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-[#eaebed] track-wider">
-                React JS Application
+                National Parks Database
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -39,6 +40,38 @@ const Work = () => {
                 </a>
                 <a
                   href="https://gitlab.com/saramargs/npdt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${LinkyImg})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-[#eaebed] track-wider">
+                Linktree Clone - Linky
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://linky-frontend.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/saramargulies/linktree-app-deploy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

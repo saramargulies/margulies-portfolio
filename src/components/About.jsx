@@ -25,7 +25,7 @@ const About = () => {
               background as a business owner and leader in the animal behavior
               industry, I bring a unique perspective to problem-solving in the
               tech world. My proficiency spans various technologies, including
-              Python with expertise in Django, FastAPI, and pytest.
+              Python with expertise in Django, FastAPI, and Pytest.
               Additionally, I am well-versed in JavaScript, excelling in React,
               Redux, Node.js, Express.js, and Prisma. My adeptness extends to
               diverse databases such as PostgreSQL, MySQL, and MongoDB. In the
